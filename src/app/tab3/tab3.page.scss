@@ -1,0 +1,11 @@
+ion-card {
+    background-color: lightblue; // Fondo predeterminado
+    
+    @media screen and (max-width: 500px) {
+      // Oculta la imagen cuando el ancho de la pantalla es <= 500px
+      .imagen-a-ocultar {
+        display: none;
+    align-items: center;
+      } 
+     }
+    }

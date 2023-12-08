@@ -1,0 +1,34 @@
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .column {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin: 10px;
+      text-align: center;
+    }
+  
+    #columnA {
+      order: 2;
+    }
+  
+    #columnB {
+      order: 1;
+    }
+  
+    // Media query para pantallas medianas (por ejemplo, 768px)
+    @media screen and (max-width: 768px) {
+      #columnA {
+        order: 2;
+      }
+  
+      #columnB {
+        order: 1;
+      }
+    }
+  
+  

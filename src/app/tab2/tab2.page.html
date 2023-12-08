@@ -7,11 +7,43 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <!-- Primera Columna -->
+      <ion-col size-sm="12" size-md="6" size-lg="4">
+        <ion-card>
+          <ion-card-header>
+            Columna 1
+          </ion-card-header>
+          <ion-card-content>
+            Contenido de la primera columna
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+      <!-- Segunda Columna -->
+      <ion-col size-sm="12" size-md="6" size-lg="4">
+        <ion-card>
+          <ion-card-header>
+            Columna 2
+          </ion-card-header>
+          <ion-card-content>
+            Contenido de la segunda columna
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Tercera Columna -->
+      <ion-col size-sm="12" size-md="6" size-lg="4">
+        <ion-card>
+          <ion-card-header>
+            Columna 3
+          </ion-card-header>
+          <ion-card-content>
+            Contenido de la tercera columna
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
