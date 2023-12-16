@@ -4,20 +4,24 @@
       flex-wrap: wrap;
     }
   
-    .column {
-      flex: 1;
+   
+  
+    #columnA {
+      order: 1;
       padding: 20px;
       border: 1px solid #ddd;
       margin: 10px;
       text-align: center;
-    }
-  
-    #columnA {
-      order: 2;
+      width: 43%;
     }
   
     #columnB {
-      order: 1;
+      order: 2;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin: 10px;
+      text-align: center;
+      width: 43%;
     }
   
     // Media query para pantallas medianas (por ejemplo, 768px)

@@ -1,7 +1,7 @@
 .product-image {
     width: 100%;
     height: auto;
-    background-color: red;
+    background-color: rgb(20, 14, 14);
   }
   
   .product-title {
@@ -12,4 +12,21 @@
   .product-description {
     font-size: 1em;
   }
-  
+  #img{
+    order: 1;
+    width: 100%;
+  }
+  #text{
+    order: 2;
+    width: 100%;
+  }
+  @media screen and (min-width: 992px) {
+    #img {
+      order: 2;
+    }
+
+    #text {
+      order: 1;
+    }
+  }
+
